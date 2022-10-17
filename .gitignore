@@ -27,6 +27,8 @@ share/python-wheels/
 *.egg
 MANIFEST
 
+
+
 # PyInstaller
 #  Usually these files are written by a python script from a template
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
@@ -127,3 +129,15 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+secrets.json
+mysql_auth.py
